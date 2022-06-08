@@ -83,7 +83,7 @@ function checkClicked(){
 				if(selectedInputTextElement.value != puzzelArrayData[i][j]){
 					selectedInputTextElement.style.backgroundColor = 'red';
 					if(!check){
-						document.getElementById("header").innerText="Пейте его кровь!";
+						document.getElementById("header").innerText="Ты проиграл!";
 						check = true;
 					}
 					document.getElementById("funanimals").src="images/badanimals.jpg";
